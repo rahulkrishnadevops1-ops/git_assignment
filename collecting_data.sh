@@ -1,15 +1,10 @@
 #!/bin/bash
 
-# Create folder if it doesn't exist
-mkdir -p reports
+mkdir -p /home/ec2-user/assignment3/reports
+ts=$(date +"%Y%m%d_%H%M")
+file="/home/ec2-user/assignment3/reports/metrics_$ts.txt"
 
-
-time=$(date +"%Y%m%d_%H%M")
-
-# Save metrics to file
-file="reports/metrics_$ts.txt"
-
-echo "System Metrics - $time" > $file
+echo "System Metrics - $ts" > $file
 echo "" >> $file
 
 echo "CPU Usage:" >> $file
