@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Metrics Scripts
 
 This project has two Bash scripts:
@@ -14,3 +15,7 @@ This project has two Bash scripts:
 
 Only scripts are tracked. `reports/` and `archive/` are ignored using `.gitignore`.
 ~                                                                                       
+=======
+# git_assignment
+Git assignment consists of 7 task
+>>>>>>> 2e274e85cca39c1ca4408d469575ceced2eaa6a6
