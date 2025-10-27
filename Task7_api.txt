@@ -1,1 +1,2 @@
 API endpoint v1
+API endpoint v2
